@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos - Oleonex</title>
+  <meta name="description" content="Conheça as linhas de produtos Oleonex: NEX Agro, NEX Saneantes, NEX Cosméticos e NEX Pet.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { brand: { green: '#7CC143', teal: '#00A19A', dark: '#2D3436', accent: '#0ABAB5' } }, fontFamily: { display: ['Outfit','sans-serif'], body: ['DM Sans','sans-serif'] } } }
+    };
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-body bg-white">
+
+  <!-- HEADER -->
+  <header class="header fixed top-0 left-0 right-0 py-4 px-6 lg:px-12 flex items-center justify-between">
+    <a href="index.html" class="relative z-10"><img src="DOCS/logo_OLEONEX.png" alt="Oleonex" class="h-10 lg:h-12"></a>
+    <nav class="hidden lg:flex items-center gap-8">
+      <a href="index.html" class="nav-link text-white font-medium text-sm tracking-wide" data-i18n="nav-home">Início</a>
+      <a href="sobre.html" class="nav-link text-white font-medium text-sm tracking-wide" data-i18n="nav-about">Sobre</a>
+      <a href="produtos.html" class="nav-link text-white font-medium text-sm tracking-wide active" data-i18n="nav-products">Produtos</a>
+      <a href="contato.html" class="nav-link text-white font-medium text-sm tracking-wide" data-i18n="nav-contact">Contato</a>
+      <a href="faq.html" class="nav-link text-white font-medium text-sm tracking-wide" data-i18n="nav-faq">FAQ</a>
+    </nav>
+    <div class="hidden lg:flex items-center gap-4">
+      <div class="lang-switch"><button class="lang-btn active" data-lang="pt">PT</button><button class="lang-btn" data-lang="en">EN</button></div>
+      <a href="contato.html" class="btn-primary text-sm py-2.5 px-6"><span>Fale conosco</span></a>
+    </div>
+    <div class="hamburger lg:hidden"><span></span><span></span><span></span></div>
+  </header>
+  <div class="mobile-menu">
+    <a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="produtos.html">Produtos</a><a href="contato.html">Contato</a><a href="faq.html">FAQ</a>
+    <div class="lang-switch mt-8"><button class="lang-btn active" data-lang="pt">PT</button><button class="lang-btn" data-lang="en">EN</button></div>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero text-center">
+    <div class="relative z-10 max-w-4xl mx-auto px-6">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 rounded-full mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-brand-green"></span>
+        <span class="text-white/80 text-sm font-medium">Oleonex</span>
+      </div>
+      <h1 class="font-display text-4xl lg:text-6xl font-bold text-white mb-4">Nossos Produtos</h1>
+      <p class="text-white/70 text-lg max-w-2xl mx-auto">Quatro linhas completas de aditivos de alto desempenho para atender às demandas específicas de cada indústria.</p>
+    </div>
+  </section>
+
+  <!-- PRODUCT LINES -->
+  <section class="py-24 lg:py-32 bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+
+      <!-- NEX Agro -->
+      <div class="grid lg:grid-cols-2 gap-12 items-center mb-24 reveal">
+        <div class="organic-img">
+          <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80" alt="NEX Agro" class="w-full aspect-[4/3] object-cover" loading="lazy">
+        </div>
+        <div>
+          <span class="product-card-badge relative inline-block mb-4">9 produtos</span>
+          <h2 class="font-display text-3xl lg:text-4xl font-bold mb-4">NEX Agro</h2>
+          <p class="text-gray-600 leading-relaxed mb-6">Uma linha completa de aditivos de alto desempenho desenvolvidos para uso industrial. Produtos para formulações de defensivos agrícolas, fertilizantes líquidos, bioestimulantes e adjuvantes. Os produtos proporcionam desempenho superior em emulsificação, dispersão, estabilização e compatibilidade.</p>
+          <a href="nex-agro.html" class="btn-primary"><span>Ver produtos</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="relative z-10"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- NEX Saneantes -->
+      <div class="grid lg:grid-cols-2 gap-12 items-center mb-24 reveal">
+        <div class="order-2 lg:order-1">
+          <span class="product-card-badge relative inline-block mb-4">9 produtos</span>
+          <h2 class="font-display text-3xl lg:text-4xl font-bold mb-4">NEX Saneantes</h2>
+          <p class="text-gray-600 leading-relaxed mb-6">Uma linha completa de aditivos de alto desempenho desenvolvidos para higiene e limpeza profissional. Composta por tensoativos, conservantes, emolientes, agentes perolizantes e bases concentradas, a linha entrega versatilidade, eficiência funcional e alto desempenho nas mais diversas categorias de saneantes.</p>
+          <a href="nex-saneantes.html" class="btn-primary"><span>Ver produtos</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="relative z-10"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+        <div class="organic-img order-1 lg:order-2">
+          <img src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?w=800&q=80" alt="NEX Saneantes" class="w-full aspect-[4/3] object-cover" loading="lazy">
+        </div>
+      </div>
+
+      <!-- NEX Cosméticos -->
+      <div class="grid lg:grid-cols-2 gap-12 items-center mb-24 reveal">
+        <div class="organic-img">
+          <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=80" alt="NEX Cosméticos" class="w-full aspect-[4/3] object-cover" loading="lazy">
+        </div>
+        <div>
+          <span class="product-card-badge relative inline-block mb-4">9 produtos</span>
+          <h2 class="font-display text-3xl lg:text-4xl font-bold mb-4">NEX Cosméticos</h2>
+          <p class="text-gray-600 leading-relaxed mb-6">Uma linha completa de insumos de alta performance desenvolvidos para cuidados pessoais, capilares e corporais. Composta por tensoativos suaves, emolientes, espessantes, agentes estruturantes, conservantes e modificadores de textura, a linha entrega versatilidade, segurança e performance funcional.</p>
+          <a href="nex-cosmeticos.html" class="btn-primary"><span>Ver produtos</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="relative z-10"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- NEX Pet -->
+      <div class="grid lg:grid-cols-2 gap-12 items-center reveal">
+        <div class="order-2 lg:order-1">
+          <span class="product-card-badge relative inline-block mb-4">7 produtos</span>
+          <h2 class="font-display text-3xl lg:text-4xl font-bold mb-4">NEX Pet</h2>
+          <p class="text-gray-600 leading-relaxed mb-6">Uma linha completa de insumos de alta performance desenvolvidos para higiene e cuidado animal. Matérias-primas selecionadas para garantir eficácia, suavidade e compatibilidade com diferentes tipos de pelagens e sensibilidades. Formulações hipoalergênicas, dermatológicas e antiparasitárias.</p>
+          <a href="nex-pet.html" class="btn-primary"><span>Ver produtos</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="relative z-10"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+        <div class="organic-img order-1 lg:order-2">
+          <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80" alt="NEX Pet" class="w-full aspect-[4/3] object-cover" loading="lazy">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section gradient-bg py-24 relative">
+    <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+      <h2 class="font-display text-3xl lg:text-4xl font-bold text-white mb-6 reveal">Precisa de ajuda para escolher o produto ideal?</h2>
+      <p class="text-white/80 text-lg mb-10 reveal delay-1">Nossa equipe técnica está pronta para auxiliar na escolha e aplicação dos nossos insumos.</p>
+      <a href="contato.html" class="inline-flex items-center gap-2 px-8 py-4 bg-white text-brand-teal font-display font-semibold rounded-xl hover:bg-gray-50 transition-all hover:-translate-y-1 hover:shadow-xl reveal delay-2">
+        Fale com um especialista
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-brand-dark text-white">
+    <div class="footer-gradient"></div>
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div><img src="DOCS/logo_OLEONEX.png" alt="Oleonex" class="h-10 mb-6 brightness-0 invert"><p class="text-gray-400 text-sm leading-relaxed">Soluções em oleoquímicos de alta performance para as indústrias agro, saneantes, cosméticos e pet.</p></div>
+        <div><h4 class="font-display font-semibold text-sm uppercase tracking-wider mb-6 text-gray-300">Links rápidos</h4><ul class="space-y-3"><li><a href="index.html" class="text-gray-400 hover:text-brand-accent text-sm transition-colors">Início</a></li><li><a href="sobre.html" class="text-gray-400 hover:text-brand-accent text-sm transition-colors">Sobre</a></li><li><a href="produtos.html" class="text-gray-400 hover:text-brand-accent text-sm transition-colors">Produtos</a></li><li><a href="contato.html" class="text-gray-400 hover:text-brand-accent text-sm transition-colors">Contato</a></li><li><a href="faq.html" class="text-gray-400 hover:text-brand-accent text-sm transition-colors">FAQ</a></li></ul></div>
+        <div><h4 class="font-display font-semibold text-sm uppercase tracking-wider mb-6 text-gray-300">Produtos</h4><ul class="space-y-3"><li><a href="nex-agro.html" class="text-gray-400 hover:text-brand-accent text-sm transition-colors">NEX Agro</a></li><li><a href="nex-saneantes.html" class="text-gray-400 hover:text-brand-accent text-sm transition-colors">NEX Saneantes</a></li><li><a href="nex-cosmeticos.html" class="text-gray-400 hover:text-brand-accent text-sm transition-colors">NEX Cosméticos</a></li><li><a href="nex-pet.html" class="text-gray-400 hover:text-brand-accent text-sm transition-colors">NEX Pet</a></li></ul></div>
+        <div><h4 class="font-display font-semibold text-sm uppercase tracking-wider mb-6 text-gray-300">Contato</h4><ul class="space-y-3 text-sm text-gray-400"><li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mt-0.5 flex-shrink-0 text-brand-accent"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><div><p>+55 (44) 99931-8388</p><p>+55 (44) 99848-0122</p></div></li><li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mt-0.5 flex-shrink-0 text-brand-accent"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><div><p>viviane@oleonex.com.br</p><p>oleoquimicos@oleonex.com.br</p></div></li><li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mt-0.5 flex-shrink-0 text-brand-accent"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><p>Rua Marginal, nº 295<br>Astorga/PR - Brasil</p></li></ul></div>
+      </div>
+      <div class="border-t border-gray-700/50 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-gray-500 text-sm">© 2026 Oleonex. Todos os direitos reservados.</p>
+        <div class="flex items-center gap-4">
+          <a href="#" class="w-9 h-9 rounded-lg bg-gray-700/50 flex items-center justify-center hover:bg-brand-teal/20 transition-colors" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-gray-400"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" class="w-9 h-9 rounded-lg bg-gray-700/50 flex items-center justify-center hover:bg-brand-teal/20 transition-colors" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-gray-400"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" class="w-9 h-9 rounded-lg bg-gray-700/50 flex items-center justify-center hover:bg-brand-teal/20 transition-colors" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-gray-400"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5544999318388" target="_blank" rel="noopener" class="whatsapp-float" aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
