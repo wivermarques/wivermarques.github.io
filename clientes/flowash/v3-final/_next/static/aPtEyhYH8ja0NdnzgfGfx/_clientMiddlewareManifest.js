@@ -1,0 +1,6 @@
+self.__MIDDLEWARE_MATCHERS = [
+  {
+    "regexp": "^\\/clientes\\/flowash\\/v3-final(?:\\/(_next\\/data\\/[^/]{1,}))?\\/admin(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\.json)?[\\/#\\?]?$",
+    "originalSource": "/admin/:path*"
+  }
+];self.__MIDDLEWARE_MATCHERS_CB && self.__MIDDLEWARE_MATCHERS_CB()

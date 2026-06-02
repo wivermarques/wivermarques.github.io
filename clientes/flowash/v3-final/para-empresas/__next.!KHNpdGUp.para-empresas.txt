@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[42864,["/clientes/flowash/v3-final/_next/static/chunks/0whnu9t5k-ij7.js","/clientes/flowash/v3-final/_next/static/chunks/0i.bq3gkxq0sk.js"],"default"]
+3:I[46907,["/clientes/flowash/v3-final/_next/static/chunks/0whnu9t5k-ij7.js","/clientes/flowash/v3-final/_next/static/chunks/0i.bq3gkxq0sk.js"],"default"]
+4:[]
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"aPtEyhYH8ja0NdnzgfGfx"}

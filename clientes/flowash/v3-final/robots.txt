@@ -1,0 +1,66 @@
+User-Agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: GPTBot
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: ChatGPT-User
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: OAI-SearchBot
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: ClaudeBot
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: anthropic-ai
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: Claude-Web
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: PerplexityBot
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: Google-Extended
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: Applebot-Extended
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: CCBot
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: Amazonbot
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+User-Agent: Bytespider
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+Sitemap: https://flowash.com.br/sitemap.xml
